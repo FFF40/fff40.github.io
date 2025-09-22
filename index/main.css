@@ -36,7 +36,7 @@ body {
 .main-container > .main-header > img {
     display: inline-block;
     image-rendering: crisp-edges;
-    margin-bottom: -1em;
+    margin-bottom: -0.5em;
 }
 
 .main-container > .social-links {
