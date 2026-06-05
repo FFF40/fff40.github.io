@@ -1,14 +1,12 @@
 <script>
   import Icon from "@iconify/svelte";
   import ProjectCard from "../component/ProjectCard.svelte";
-
-  import janoargGif from "../assets/gifs/janoarg.webp"
-
 </script>
 <svelte:head>
     <title>FFF40 Studios</title>
 </svelte:head>
 
+<img src="/index/brand/fff40-wireframe.svg" alt="" class="background-logo" />
 <div id="main-container">
     <div id="main-container-inner">
         <header>
@@ -50,12 +48,20 @@
                 name="JANOARG" 
                 desc="A dynamic 3D rhythm game where everything moves. Playable on phones!"
                 link="https://github.com/fff40/janoarg" 
-                background={janoargGif} />
+                background="/index/img/janoarg.webp" />
         </main>
     </div>
 </div>
 
 <style>
+    .background-logo {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: min(80dvw, 80dvh);
+        opacity: 0.2;
+    }
+
     #main-container {
         display: flex;
         position: fixed;
