@@ -2,9 +2,7 @@
   import { onMount } from "svelte";
 
 	onMount(() => {
-		window.addEventListener("load", () => {
-			document.getElementById("preloader")!.classList.add("hidden", "animated");
-		})
+		document.getElementById("preloader")!.classList.add("hidden", "animated");
 	})
 </script>
 
