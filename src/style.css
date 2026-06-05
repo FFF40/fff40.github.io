@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(/index/fonts/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Roboto Mono";
+    font-style: italic;
+    src: url(/index/fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Roboto Flex Title";
+    src: url(/index/fonts/RobotoFlex-Title.ttf);
+}
+@font-face {
+    font-family: "Roboto Flex Title";
+    font-style: italic;
+    src: url(/index/fonts/RobotoFlex-TitleItalic.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto Mono", monospace;
+
+    background: black;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Flex Title", sans-serif;
+    font-weight: normal;
+}
