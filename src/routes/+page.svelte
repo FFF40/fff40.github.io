@@ -1,6 +1,8 @@
 <script>
   import Icon from "@iconify/svelte";
   import ProjectCard from "../component/ProjectCard.svelte";
+  import ProjectLinks from "../component/ProjectLinks.svelte";
+  import ProjectLink from "../component/ProjectLink.svelte";
 </script>
 <svelte:head>
     <title>FFF40 Studios</title>
@@ -49,6 +51,9 @@
                 desc="A dynamic 3D rhythm game where everything moves. Playable on phones!"
                 link="https://github.com/fff40/janoarg" 
                 background="/index/img/janoarg.webp" />
+            <ProjectLinks>
+                <ProjectLink name="Download" icon="lucide:download" link="https://github.com/fff40/janoarg/releases" />
+            </ProjectLinks>
         </main>
     </div>
 </div>
